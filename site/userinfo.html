@@ -2,7 +2,8 @@
 
 $con = mysqli_connect('localhost','root');
 if ($con) {
-	echo "connetion SUCCESSFUL";
+	echo "Thank You";
+	echo " ordered successfully";
 	# code...
 }
 else{
@@ -16,10 +17,9 @@ $email = $_POST['email'];
 $mobile = $_POST['mobile'];
 $orders = $_POST['orders'];
 
-$query = " insert into userinfodata1x (user, email, mobile, orders)
+$query = " insert into userinfodata1 (user, email, mobile, orders)
 values ('$user', '$email', '$mobile', '$orders') ";
 
-echo "$query";
 
 mysqli_query($con, $query);
 

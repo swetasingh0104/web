@@ -40,7 +40,7 @@
 }
 .carousel-inner img {
     width: 100%;
-    height: 100%;
+    height: 20%;
   }
 p{
   font-family: 'Oxygen', sans-serif; 
@@ -95,7 +95,7 @@ h6{
   position: absolute;
     bottom: 3%;
     right: 3.7%;
-    width: 92.2%;
+    width: 95%;
     text-align: center;
     font-size: 1.6em;
     text-transform: uppercase;
@@ -111,8 +111,8 @@ h6{
     h1{
   position: absolute;
     bottom: 3%;
-    right: 4%;
-    width: 95%;
+    right: 2.1%;
+    width: 95.5%;
     text-align: center;
     font-size: 1.6em;
     text-transform: uppercase;
